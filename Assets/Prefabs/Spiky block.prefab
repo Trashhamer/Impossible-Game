@@ -210,6 +210,8 @@ GameObject:
   - component: {fileID: 5598930235072974725}
   - component: {fileID: 2907041749558607765}
   - component: {fileID: 8891591342405630969}
+  - component: {fileID: 8019760921433713157}
+  - component: {fileID: 3721803520673466435}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -294,7 +296,38 @@ CapsuleCollider:
   m_Radius: 2
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 1.64, y: 0, z: 0}
+  m_Center: {x: 0.69, y: 0, z: 0}
+--- !u!114 &8019760921433713157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3920248094045096579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &3721803520673466435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3920248094045096579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 60388f7685696fe48a51651deaf465d2, type: 2}
 --- !u!1 &4667971821537094751
 GameObject:
   m_ObjectHideFlags: 0
