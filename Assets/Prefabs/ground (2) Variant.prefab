@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 1496795983621493408, guid: 9fab5bf86683fa24d8fb4eeb042cf3c8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: f0e73c2e488942344a8c6816ed205fea, type: 2}
     - target: {fileID: 1496795983621493410, guid: 9fab5bf86683fa24d8fb4eeb042cf3c8, type: 3}
       propertyPath: m_Name
       value: ground (2) Variant
@@ -61,6 +61,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1496795983621493422, guid: 9fab5bf86683fa24d8fb4eeb042cf3c8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164200515143169327, guid: 9fab5bf86683fa24d8fb4eeb042cf3c8, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
